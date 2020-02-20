@@ -13,3 +13,6 @@
 	1. https://github.com/pytorch/examples/tree/master/vae
 
  	2. http://kvfrans.com/variational-autoencoders-explained/
+
+### Update on 2/20/2020
+&ensp; &ensp; Neither linear VAE nor convolutional VAE has good performance on CIFAR10... According to [this blog](https://medium.com/@joeDiHare/deep-bayesian-neural-networks-952763a9537), variational inference may be slow for deep Bayesian net and the performance is not guaranteed to be optimal.
